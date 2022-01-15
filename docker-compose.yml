@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: bash start.sh
+    links:
+      - postgres_db
+    depends_on:
+      - postgres_db
+  postgres_db:
+    image: postgres:14
+    container_name: postgres
+    env_file:
+      - ./.env
+    ports:
+      - 5432:5432
