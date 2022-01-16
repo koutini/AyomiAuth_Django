@@ -11,7 +11,7 @@
     1/docker-compose up -d --build postgres_db
     2/docker-compose up  --build app
     ```
-Test it out at [http://localhost:8000](http://localhost:8000). The "app" folder and the django commands is mounted into the container and the code changes apply automatically.
+Test it out at [http://localhost:8000](http://localhost:8000). The "app" folder and the django commands is mounted into the containers.The code changes apply automatically.
 
 That's it!, you can register to create new user or create superuser to login: 
   ```sh
