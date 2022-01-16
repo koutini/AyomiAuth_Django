@@ -3,8 +3,12 @@
 
 Uses the default Django development server.
 
-1. Build the images and run the containers:
-
+1. clone project:
+    ```sh
+    git clone https://github.com/koutini/AyomiAuth_Django.git
+    cd AyomiAuth_Django
+    ```
+2. build images 
     ```sh
     1/docker-compose up -d --build postgres_db
     2/docker-compose up  --build app
