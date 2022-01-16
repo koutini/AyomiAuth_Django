@@ -1,8 +1,6 @@
 # AyomiAuth_Django
 ### Installation
 
-Uses the default Django development server.
-
 1. clone project:
     ```sh
     git clone https://github.com/koutini/AyomiAuth_Django.git
