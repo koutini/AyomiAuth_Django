@@ -14,4 +14,4 @@ Test it out at [http://localhost:8000](http://localhost:8000). The "app" folder 
 That's it!, you can register to create new user or create superuser to login: 
   ```sh
   ./ manage.py createsuperuser 
-    ```
+  ```
